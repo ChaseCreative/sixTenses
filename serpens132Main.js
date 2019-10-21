@@ -40,8 +40,8 @@ var randVerbPickIndex = Math.floor(Math.random() * 4);
 var rand6VerbPickIndex = Math.floor(Math.random() * 6);
 
 //var futTV0 = verbsSecondFuture[randIndex][0] + perEndingsFuture[randPEIndex][0];
-//var futTV0 =  verbsFirstFuture[randIndex][0] + perEndingsFuture[randPEIndex][0];
-var futTV0 =  [verbsFirstFuture[randIndex][0] + perEndingsFuture[randPEIndex][0],verbsSecondFuture[randIndex][0] + perEndingsFuture[randPEIndex][0],];
+var futTV0 =  verbsFirstFuture[randIndex][0] + perEndingsFuture[randPEIndex][0];
+//var futTV0 =  [verbsFirstFuture[randIndex][0] + perEndingsFuture[randPEIndex][0],verbsSecondFuture[randIndex][0] + perEndingsFuture[randPEIndex][0],];
 var presTV1 = verbsFirst[randIndex][0] + perEndingsFirst[randPEIndex][0];
 var impTV2 = verbsFirst[randIndex][0] + perEndingsFirstImp[randPEIndex][0];
 var perTV3 = verbsFirstPer[randIndex][0] + perEndingsFirstPerfect[randPEIndex][0];
